@@ -1,0 +1,59 @@
+---
+layout : post
+title : Algorithm_2
+description : MIT 6.006 Introduction to Algorithm 강의를 듣고 기록한 내용입니다.
+categories: [Algorithms]
+comments: true
+---
+
+본 강의는 [여기](https://www.edwith.org/introalgorithm)에서 들으실 수 있습니다.
+
+<blockquote align="center"> 2강 </blockquote>
+
+알고리즘의 정의 :
+
+    문제를 푸는 계산이나 계산 과정을 정의하는 방법
+
+알고리즘의 두 가지 계산 모델 : RAM(Random Access Machine, 임의 접근 방식, 임의 접근 기억 장치), 포인터
+
+핵심은, 동적 메모리의 할당 여부이다.
+
+
+![](/assets/img/Algorithm/lec2/1.PNG)
+
+    문서 간 중복률 확인법 1. 벡터 간 거리로 나누기.
+
+    D1 = "the cat"
+    D2 = "the dog"라 할 떄,
+    각각 벡터로 (1,1,0) , (0,1,1)로 나눌 수 있다.
+
+    이 벡터간 거리가 좁을 수록 문서간 중복률이 높다는 의미인데,
+
+    위 식처럼 적용하면, 계산 가능하다. 
+
+    여기서 나타난 벡터의 길이 |D|는, 등장하는 단어의 개수이다.
+
+    또한 이 d(D1,D2)는, 두 벡터가 이루는 각도를 의미한다.(+arccos를 추가할 경우)
+
+    각도가 0일 경우 완전 동일, 90도 일 경우 완벽히 다름을 의미한다.
+
+
+![](/assets/img/Algorithm/lec2/2.PNG)
+
+
+    확인법 2. 
+
+    step1. 문서를 단어들로 쪼개기
+
+    step2. 단어 빈도 계산하기(각 단어가 몇 번 씩 등장하는지)
+
+    step3. 내적 계산하기
+
+
+    부가설명
+    
+    step1) split() 함수등의 이용으로 공백등이 나올시 끊고 단어로 쪼개기
+
+    step2) 문서의 단어들을 반복하면서 딕셔너리에 추가.
+    (count[words]+=1])
+

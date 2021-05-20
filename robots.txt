@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://notou10.github.io/sitemap.xml

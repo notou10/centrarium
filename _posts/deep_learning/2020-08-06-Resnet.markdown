@@ -1,0 +1,21 @@
+---
+layout : post
+title : Deep_Learning Seminar - ResNet
+description : 8월 6일자 발표 내용 입니다.
+categories: [Deep Learning]
+comments: true
+---
+
+
+20년 6월 6일 딥러닝 세미나 발표 내용 입니다.
+
+<blockquote align="center"> 발표자료 </blockquote>
+
+![1](/assets/img/Deep_learning/0812_resnet/1.PNG)
+![1](/assets/img/Deep_learning/0812_resnet/2.PNG)
+![1](/assets/img/Deep_learning/0812_resnet/3.PNG)
+![1](/assets/img/Deep_learning/0812_resnet/4.PNG)
+![1](/assets/img/Deep_learning/0812_resnet/5.PNG)
+![1](/assets/img/Deep_learning/0812_resnet/6.PNG)
+![1](/assets/img/Deep_learning/0812_resnet/7.PNG)
+![1](/assets/img/Deep_learning/0812_resnet/8.PNG)
