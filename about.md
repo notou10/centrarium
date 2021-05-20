@@ -17,4 +17,4 @@ You can find out more info about customizing your Jekyll theme, as well as basic
 [bencentra]: http://bencentra.com
 [jekyll]: https://github.com/jekyll/jekyll -->
 
-KWU 16
+KWU 16 EE
