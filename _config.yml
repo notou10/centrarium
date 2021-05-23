@@ -26,8 +26,8 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://notou10.github.io" # the base hostname & protocol for your site
-cover: "/assets/940860.jpg"
-logo: "/assets/Arsenal.png"
+cover: "/assets/5.jpg"
+logo: "/assets/3.jpg"
 
 # Build settings
 markdown: kramdown
