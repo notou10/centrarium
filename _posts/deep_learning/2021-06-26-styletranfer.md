@@ -98,19 +98,19 @@ Gram matrix는, 이미지의 content정보는 뒤로한 채 style(texture)정보
 
 ![1](/assets/img/Deep_learning/210626/7.PNG)
 
-    N개의 filter 를 가진 layer단에서 Gram matrix는, 해당 수식(3)의 방식으로 구해진다.
+N개의 filter 를 가진 layer단에서 Gram matrix는, 해당 수식(3)의 방식으로 구해진다.
 
-    Gram matrix의 각 element는, i번째, j번째 filter를 거칫 값들을 1차원으로 flatten하고 내적을 취해준 scalar값이다.
+Gram matrix의 각 element는, i번째, j번째 filter를 거칫 값들을 1차원으로 flatten하고 내적을 취해준 scalar값이다.
 
-    각 element를 모두 구해서 gram matrix를 살펴보면, 이 gram matrix는 공분산 행렬임을 알 수 있다.
+각 element를 모두 구해서 gram matrix를 살펴보면, 이 gram matrix는 공분산 행렬임을 알 수 있다.
 
-    공분산 행렬이라 함은 i번째 필터(의 activation)와, j번째 필터(의 activation)의  correlation이 공분산행렬의 i,j번째(j, i)번째  element에 들어간 전치행렬일 것이다.
+공분산 행렬이라 함은 i번째 필터(의 activation)와, j번째 필터(의 activation)의  correlation이 공분산행렬의 i,j번째(j, i)번째  element에 들어간 전치행렬일 것이다.
 
-    만약 해당 공분산 행렬과 비슷하게(두 차이가 적도록) 갖도록 이미지를 생성한다면, 그 두 이미지의 스타일 역시 비슷할 것이다.
+만약 해당 공분산 행렬과 비슷하게(두 차이가 적도록) 갖도록 이미지를 생성한다면, 그 두 이미지의 스타일 역시 비슷할 것이다.
 
-    모든 Element(Filter의 activation을 거친 값들의 correlation들)이 모두 유사할 것이기에)
+모든 Element(Filter의 activation을 거친 값들의 correlation들)이 모두 유사할 것이기에)
 
-    따라서 해당 논문에서는 style representation을 구할때에는 gram matrix의 차이가 줄어들도록 이미지를 생성하는 방식을 채택했다. 
+따라서 해당 논문에서는 style representation을 구할때에는 gram matrix의 차이가 줄어들도록 이미지를 생성하는 방식을 채택했다. 
 
 ![1](/assets/img/Deep_learning/210626/8.PNG)
 
